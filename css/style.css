@@ -1,14 +1,38 @@
 
 body {
     justify-content: center;
-    background-image: url("../img/wall2.jpeg");
+    background-image: url("../img/wall.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+
 }
 
+
 #cuerpo {
+    background-color: #06060654;
+    padding: 5rem;
+    padding-right: 15rem;
+    padding-left: 15rem;
+    color:white;
+}
+h1, h2, p{
+    text-align:center;
+}
+#multimedia {
+    display: flex;
+    justify-content: center;
 
+}
+#section_article{
+    margin-bottom:5rem;
+}
+footer{
+    display:flex;
+    align-items:center;
+    justify-content:end;
 
+    
+    height:5rem;
 }
